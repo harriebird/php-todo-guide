@@ -1,0 +1,13 @@
+{
+  "name": "php-tod-guide",
+  "version": "1.0.0",
+  "description": "Web Development Basics Todo App Guide",
+  "author": "Paul Harriet Asiñero",
+  "devDependencies": {
+    "honkit": "^4.0.7"
+  },
+  "scripts": {
+    "build": "honkit build",
+    "serve": "honkit serve"
+  }
+}
