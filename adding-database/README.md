@@ -55,7 +55,7 @@ since it widely supports almost of the characters in the world.
 Without using the `Create Database` prompt, the equivalent SQL statement for creating a database for the Todo app is
 shown below.
 
-```mysql
+```sql
 CREATE DATABASE todo DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci
 ```
 
@@ -67,7 +67,7 @@ If the database `todo` is not yet appearing, you can press `F5` to refresh the D
 
 Once the SQL Script pane is open, copy the code below and paste it to the pane.
 
-```mysql
+```sql
 CREATE TABLE tasks (
 	id BIGINT AUTO_INCREMENT NOT NULL,
 	task VARCHAR(255) NOT NULL,
@@ -130,14 +130,14 @@ used to manipulate data on a database.
 ### INSERT Statement
 INSERT statement is used to add new record or row on a table.
 
-```mysql
+```sql
 INSERT INTO tasks(task) VALUES('Attend WebDev Basics Session')
 ```
 
 The statement above means it will insert on `tasks` table supplying the `task` field with a value of
 `Attend WebDev Basics Session`.
 
-```mysql
+```sql
 INSERT INTO tasks(task, datetime_start) VALUES('Eat my Snacks', NOW())
 ```
 
@@ -152,7 +152,7 @@ have a similar sequence to the values provided.
 ### SELECT Statement
 SELECT statement is used to retrieve records or rows on a table.
 
-```mysql
+```sql
 SELECT * FROM tasks
 ```
 
@@ -160,7 +160,7 @@ The statement above means it will retrieve all the records or rows on the `tasks
 retrieved. You can specify the fields that will be retrieved by replacing the `*` with the column names seperated by a
 comma.
 
-```mysql
+```sql
 SELECT * FROM tasks WHERE id=1
 ```
 
@@ -169,13 +169,13 @@ set with only those records who have an `id` equal to 1. `WHERE` clause enables 
 retrieved result set. Other operators such as `>`, `<`, `>=`,`<=`, `!=`, `LIKE`, `IN`, `BETWEEN` can be used too. `AND`
 or `OR` keywords can be added to add another filtering operation.
 
-```mysql
+```sql
 SELECT * FROM tasks WHERE datetime_start IS NOT NULL
 ```
 
 The statement above means it retrieves all records where `datetime_start` doesn't contain a null value.
 
-```mysql
+```sql
 SELECT * FROM tasks ORDER BY datetime_added DESC
 ```
 
@@ -191,7 +191,7 @@ The statement above retrieves all the records rows and sorting it in descending 
 UPDATE statement is used to manipulate data from an existing records or rows. This is usually paired with `WHERE`
 clause to target only those records that needs to be updated.
 
-```mysql
+```sql
 UPDATE tasks SET task='Updated this task using UPDATE statement' WHERE id=2
 ```
 
@@ -206,7 +206,7 @@ names with values separating them with comma.
 DELETE statement is used to delete records or rows from a table. This is usually paired with `WHERE` clause
 to target only those records that needs to be deleted.
 
-```mysql
+```sql
 DELETE FROM tasks WHERE id=1
 ```
 

@@ -10,3 +10,7 @@
 * [Developing Todo App](developing-todo-app/README.md)
   * [Adding Bootstrap](developing-todo-app/README.md#adding-bootstrap)
   * [Creating the Main Page](developing-todo-app/README.md#creating-the-main-page)
+* [Gitting Started with Git](gitting-started-with-git/README.md)
+  * [A little bit about Git](gitting-started-with-git/README.md#a-little-bit-about-git)
+  * [Gitting Your Hands Dirty with Git](gitting-started-with-git/README.md#gitting-your-hands-dirty-with-git)
+  * [What's Next?](gitting-started-with-git/README.md#whats-next)
