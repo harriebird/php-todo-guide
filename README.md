@@ -11,8 +11,9 @@ activity for the Web Development Basics sessions.
   * [PhpStorm](https://www.jetbrains.com/phpstorm/) (Paid IDE)
   * [Notepad++](https://notepad-plus-plus.org/downloads/) 
 * [DBeaver](https://dbeaver.io/download/)
-* [MariaDB](https://mariadb.org/download/) / [MySQL](https://www.mysql.com/downloads/) (installed manually or via
-XAMPP)
+* [MariaDB](https://mariadb.org/download/) / [MySQL](https://www.mysql.com/downloads/) (installed manually or via XAMPP)
+* [Git](https://git-scm.com/downloads) (Version Control System)
+* [GitHub](https://github.com/) Account
 
 The requirements above should be installed for you to smoothly proceed with this tutorial. It is highly recommended to
 install [**XAMPP**](https://www.apachefriends.org/) since it already includes a Web Server (Apache), PHP, and a
@@ -28,8 +29,8 @@ markdown. This guide will help you setup and run this tutorial on your own machi
    * Or just download this repository directly as ZIP file. After the download, extract the ZIP.
 3. After a successful repository clone or download, open a terminal on the cloned/extracted repository. Install the
 required libraries by running the `npm install` command on the terminal.
-4. After running the package installation command, run `npx honkit serve`. The command will serve the web version of the
-guide at `http://localhost:4000` which can be accessed using a browser.
+4. After running the package installation command, run `npm run serve` or `npx honkit serve`. Either of these commands
+will serve the web version of the guide at `http://localhost:4000`, which can be accessed using a browser.
 
 Hopefully you will enjoy the journey of creating the Todo App. Let's go! :)
 
