@@ -4,7 +4,7 @@
   "description": "Web Development Basics Todo App Guide",
   "author": "Paul Harriet Asiñero",
   "devDependencies": {
-    "honkit": "^5.1.1"
+    "honkit": "^6.0.3"
   },
   "scripts": {
     "build": "honkit build",
